@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    height: 700px;
+    width: 1152px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(78, 0, 0)
+}
+
+.card__content {
+    display: flex;
+    height: 160px;
+    width: 468px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #F48C06;
+    border-radius: 2%;
+}
+
+p {
+    display: flex;
+    background-color: rgb(138, 28, 9);
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 20px 20px;
+    color: rgb(255, 255, 255, 0);
+    border-radius: 5%;
+    border: none;
+}
+
+.card__content--one {
+    align-items: flex-end;
+}
+
+.card__content--three {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
