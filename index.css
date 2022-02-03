@@ -5,7 +5,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    background-color: rgb(78, 0, 0)
+    background-color: #370617
 }
 
 .card__content {
@@ -20,12 +20,10 @@
 
 p {
     display: flex;
-    background-color: rgb(138, 28, 9);
-    height: 30px;
-    width: 30px;
+    background-color: #9D0208;
+    height: 80px;
+    width: 80px;
     margin: 10px;
-    padding: 20px 20px;
-    color: rgb(255, 255, 255, 0);
     border-radius: 5%;
     border: none;
 }
@@ -34,10 +32,58 @@ p {
     align-items: flex-end;
 }
 
+.card__content--two {
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content--two p {
+    height: 130px;
+}
+
 .card__content--three {
     align-items: center;
     justify-content: flex-end;
 }
+
+.card__content--four {
+    justify-content: space-between;
+}
+
+.card__content--four--box3 {
+    align-self: flex-end;
+}
+
+.card__content--five {
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.card__content--five p {
+    justify-content: center;
+}
+
+.card__content--five--box2 {
+    height: 40px;
+    padding: 15px 0;
+}
+
+.card__content--five--box1, .card__content--five--box3 {
+    height: 40px;
+    padding: 40px 0; 
+}
+
+.card__content--six {
+    justify-content: center;
+    align-items: center;
+}
+
+.card__content--six--box2 {
+    width: 180px;
+}
+
 
 
 
