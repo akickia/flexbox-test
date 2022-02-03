@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    height: 700px;
+    width: 1152px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #FAA307
+}
+
+.card__content {
+    display: flex;
+    height: 215px;
+    width: 268px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #03071E;
+}
+
+p {
+    display: flex;
+    background-color: #748CAB;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+}
+
+.card__content--one {
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card__content--two {
+    background-color: #6A040F;
+    flex-wrap: wrap-reverse;
+    align-content: flex-start;
+    justify-content: flex-end;
+}
+
+.card__content--three {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card__content--four {
+    background-color: #6A040F;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.card__content--five {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card__content--six {
+   visibility: hidden; 
+}
+
+.container__btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #6A040F;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+}
+

@@ -84,6 +84,16 @@ p {
     width: 180px;
 }
 
+.container__btn {
+    display: flex;
+    justify-content: center;
+}
 
+button {
+    background-color: #6A040F;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+}
 
 
