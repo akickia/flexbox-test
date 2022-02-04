@@ -8,7 +8,7 @@
     background-color: #370617
 }
 
-.card__content {
+.card {
     display: flex;
     height: 160px;
     width: 468px;
@@ -18,7 +18,7 @@
     border-radius: 2%;
 }
 
-p {
+.card--square {
     display: flex;
     background-color: #9D0208;
     height: 80px;
@@ -28,60 +28,61 @@ p {
     border: none;
 }
 
-.card__content--one {
+.card__one {
     align-items: flex-end;
 }
 
-.card__content--two {
+.card__two {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
-.card__content--two p {
-    height: 130px;
+.card__two .card--square {
+    align-items: stretch;
 }
 
-.card__content--three {
+.card__three {
     align-items: center;
     justify-content: flex-end;
 }
 
-.card__content--four {
+.card__four {
     justify-content: space-between;
 }
 
-.card__content--four--box3 {
+.card__four--box3 {
     align-self: flex-end;
 }
 
-.card__content--five {
+.card__five {
     justify-content: space-evenly;
     align-items: center;
     color: rgb(255, 255, 255);
     font-size: 12px;
 }
 
-.card__content--five p {
+.card__five p {
     justify-content: center;
+    align-items: baseline;
 }
 
-.card__content--five--box2 {
+.card__five--box2 {
     height: 40px;
     padding: 15px 0;
 }
 
-.card__content--five--box1, .card__content--five--box3 {
+.card__five--box {
     height: 40px;
     padding: 40px 0; 
 }
 
-.card__content--six {
+.card__six {
     justify-content: center;
     align-items: center;
 }
 
-.card__content--six--box2 {
-    width: 180px;
+.card__six--box2 {
+    flex-grow: 2;
 }
 
 .container__btn {
